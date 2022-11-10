@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans&family=Frank+Ruhl+Libre&family=PT+Sans&family=Roboto+Mono&display=swap');
 * {
     box-sizing: border-box;
 }
@@ -5,4 +6,63 @@
 body {
     margin: 0;
     padding: 0;
+    background-color: #F5F5F5;
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+}
+
+.calculator {
+    width: 322px;
+    height: 496px;
+    background: #2E2727;
+    border-radius: 11px;    
+}
+
+.calculator__input {
+    width: 296.24px;
+    height: 79px;
+    font-size: 36px;
+    font-family: 'Roboto Mono';
+    font-style: normal;
+    margin: 1.2rem auto;
+    padding-left: 1rem;
+    border-radius: 6px;
+    color: #423A33;
+    opacity: 0.8;
+    background-color: #EBE8E0;
+    display: flex;
+    align-items: center;
+}
+
+.calculator__buttons {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 13px 10px;
+    padding: 0 12px;
+}
+
+.calculator__button {
+    width: 64.4px;
+    height: 80px;
+    border-radius: 5px;
+    border-style: none;
+    font-family: 'PT Sans';
+    font-style: normal;
+    font-size: 48px;
+    color: white;
+    background-color: #767574;
+
+}
+
+.orange {
+    background-color: #FFA216;;
+}
+
+.red {
+    background-color: #C44646;
+}
+
+.black {
+    background-color: #000;
 }
